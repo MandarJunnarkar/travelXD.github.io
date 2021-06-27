@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home1 */
+#home1{
+    position: relative;
+    height: 30em;
+    width: 81em;
+    margin-top: 5px;
+    margin-left: 2em;
+    filter: drop-shadow(0px 0px 3px);
+}
+
+.home1img{
+    position: absolute;
+    height: 28em;
+    width: 100%;
+    opacity: 0.6;
+    margin-top: 0px;
+}
+
+#imagebtm{
+    margin-top: 25em;
+    height: 10em;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+#home1head{
+    color: white;
+    position: absolute;
+    margin-left: 1em;
+    margin-top: 3em;
+    filter: drop-shadow(0px 0px 1px);
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 37px;
+}
+
+#imagebtm h1{
+    position: absolute;
+    margin-left: 24em;
+    font-weight: lighter;
+    color: #363636;
+    padding: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.imgbtmicon1{
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 2em;    
+}
+
+.imgbtmicon2{
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    margin-left: 30em;
+    margin-top: 2em;   
+}
+
+#imagebtm h2{
+    position: absolute;
+    margin-left:6em;
+    margin-top: 4em;
+    color: #363636;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+#imagebtm h3{
+    position: absolute;
+    margin-left: 18em;
+    margin-top: 4em;
+    font-size: 23px;
+    color: #363636;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+/* navbar */
+#navbar{
+    height: 3em;
+    /* background-color: #3377ff; */
+}
+
+.navi{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-top: 13px;
+    right: 3em;
+}
+
+.navi a{
+    padding: 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    transition: ease 1s;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.navi a:hover{
+    background-color: whitesmoke;
+    color: gray;
+}
+.current{
+    background-color: orange;
+}
